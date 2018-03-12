@@ -33,6 +33,8 @@ static NSString * const reuseId = @"cell2";
 
 - (void)setupUI
 {
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    
     UITableView * tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, CGRectGetMaxY(self.navigationController.navigationBar.frame), self.view.frame.size.width, self.view.frame.size.height - CGRectGetMaxY(self.navigationController.navigationBar.frame))];
     tableView.delegate = self;
     tableView.dataSource = self;
