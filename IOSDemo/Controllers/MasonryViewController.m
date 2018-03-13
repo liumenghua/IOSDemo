@@ -10,6 +10,8 @@
 #import "LMHViewController.h"
 #import "MasonryBasicView.h"
 #import "MasonryRemakeView.h"
+#import "MasonryAspectFitView.h"
+#import "MasonryDistributeView.h"
 
 @interface MasonryViewController ()
 @property (nonatomic, strong) NSArray * items;
@@ -17,6 +19,16 @@
 
 @implementation MasonryViewController
 static NSString * const reuseID = @"reuseID2";
+
+// 这个方法是在viewDidLoad之后调用么？
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        
+    }
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -31,7 +43,9 @@ static NSString * const reuseID = @"reuseID2";
 {
     self.items = @[
                    [[LMHViewController alloc] initWithTitle:@"MasonryBasicView" viewClass:[MasonryBasicView class]],
-                   [[LMHViewController alloc] initWithTitle:@"MasonryRemakeView" viewClass:[MasonryRemakeView class]]
+                   [[LMHViewController alloc] initWithTitle:@"MasonryRemakeView" viewClass:[MasonryRemakeView class]],
+                   [[LMHViewController alloc] initWithTitle:@"MasonryAspectFitView" viewClass:[MasonryAspectFitView class]],
+                   [[LMHViewController alloc] initWithTitle:@"MasonryDistributeView" viewClass:[MasonryDistributeView class]]
                    ];
 }
 

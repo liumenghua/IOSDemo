@@ -26,6 +26,8 @@
 		ABEA62462056ABED0070BB59 /* MasonryBasicView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEA62452056ABED0070BB59 /* MasonryBasicView.m */; };
 		ABEA6249205763200070BB59 /* MasonryRemakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEA6248205763200070BB59 /* MasonryRemakeView.m */; };
 		ABEA624C205777530070BB59 /* UIApplicationView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEA624B205777530070BB59 /* UIApplicationView.m */; };
+		ABEA624F2057E4CB0070BB59 /* MasonryAspectFitView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEA624E2057E4CB0070BB59 /* MasonryAspectFitView.m */; };
+		ABEA62532057EA760070BB59 /* MasonryDistributeView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEA62522057EA760070BB59 /* MasonryDistributeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,10 @@
 		ABEA6248205763200070BB59 /* MasonryRemakeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryRemakeView.m; sourceTree = "<group>"; };
 		ABEA624A205777530070BB59 /* UIApplicationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIApplicationView.h; sourceTree = "<group>"; };
 		ABEA624B205777530070BB59 /* UIApplicationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIApplicationView.m; sourceTree = "<group>"; };
+		ABEA624D2057E4CB0070BB59 /* MasonryAspectFitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryAspectFitView.h; sourceTree = "<group>"; };
+		ABEA624E2057E4CB0070BB59 /* MasonryAspectFitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryAspectFitView.m; sourceTree = "<group>"; };
+		ABEA62512057EA760070BB59 /* MasonryDistributeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryDistributeView.h; sourceTree = "<group>"; };
+		ABEA62522057EA760070BB59 /* MasonryDistributeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryDistributeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +189,7 @@
 		ABEA622620569C820070BB59 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				ABEA62502057EA590070BB59 /* Masonry */,
 				ABEA622E20569C820070BB59 /* DeviceInfo.h */,
 				ABEA622F20569C820070BB59 /* DeviceInfo.m */,
 				ABEA622C20569C820070BB59 /* AppearanceView.h */,
@@ -191,10 +198,6 @@
 				ABEA622A20569C820070BB59 /* UITableView+Appearance.m */,
 				ABEA622B20569C820070BB59 /* UIViewController+Extension.h */,
 				ABEA622820569C820070BB59 /* UIViewController+Extension.m */,
-				ABEA62442056ABED0070BB59 /* MasonryBasicView.h */,
-				ABEA62452056ABED0070BB59 /* MasonryBasicView.m */,
-				ABEA6247205763200070BB59 /* MasonryRemakeView.h */,
-				ABEA6248205763200070BB59 /* MasonryRemakeView.m */,
 				ABEA624A205777530070BB59 /* UIApplicationView.h */,
 				ABEA624B205777530070BB59 /* UIApplicationView.m */,
 			);
@@ -223,6 +226,21 @@
 				ABEA62422056A66D0070BB59 /* MasonryViewController.m */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ABEA62502057EA590070BB59 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				ABEA62442056ABED0070BB59 /* MasonryBasicView.h */,
+				ABEA62452056ABED0070BB59 /* MasonryBasicView.m */,
+				ABEA6247205763200070BB59 /* MasonryRemakeView.h */,
+				ABEA6248205763200070BB59 /* MasonryRemakeView.m */,
+				ABEA624D2057E4CB0070BB59 /* MasonryAspectFitView.h */,
+				ABEA624E2057E4CB0070BB59 /* MasonryAspectFitView.m */,
+				ABEA62512057EA760070BB59 /* MasonryDistributeView.h */,
+				ABEA62522057EA760070BB59 /* MasonryDistributeView.m */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 		C538A32EB27C7396033DDA3C /* Pods */ = {
@@ -430,8 +448,10 @@
 				ABEA623E20569C880070BB59 /* DeviceInfoViewController.m in Sources */,
 				ABEA623020569C820070BB59 /* UIViewController+Extension.m in Sources */,
 				ABEA6249205763200070BB59 /* MasonryRemakeView.m in Sources */,
+				ABEA62532057EA760070BB59 /* MasonryDistributeView.m in Sources */,
 				ABEA623F20569C880070BB59 /* LMHViewController.m in Sources */,
 				ABEA623220569C820070BB59 /* UITableView+Appearance.m in Sources */,
+				ABEA624F2057E4CB0070BB59 /* MasonryAspectFitView.m in Sources */,
 				ABEA624C205777530070BB59 /* UIApplicationView.m in Sources */,
 				ABEA624020569C880070BB59 /* AppearanceViewController.m in Sources */,
 				ABEA623D20569C880070BB59 /* ListViewController.m in Sources */,
