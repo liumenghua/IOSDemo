@@ -21,10 +21,25 @@
     self.window = [[UIWindow alloc]initWithFrame: [UIScreen mainScreen].bounds];
     UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:[[ListViewController alloc] init]];
     self.window.rootViewController = nav;
+    
+    // 清空通知中心
+    [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
+    
+    // 注册通知
+    [self registerNotification];
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
 
+- (void)registerNotification
+{
+    UIApplication * app = [UIApplication sharedApplication];
+//    app.applicationIconBadgeNumber = 10;
+    
+    UIUserNotificationSettings * setting = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeBadge categories:nil];
+    [app registerUserNotificationSettings:setting];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

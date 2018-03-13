@@ -12,6 +12,7 @@
 #import "LMHViewController.h"
 #import "AppearanceView.h"
 #import "MasonryViewController.h"
+#import "UIApplicationView.h"
 
 @interface ListViewController ()
 @property (nonatomic, strong) NSArray * childItems;
@@ -34,7 +35,8 @@ static NSString * const reuseID = @"reuseID";
     self.childItems = @[
                         [[DeviceInfoViewController alloc] initWithTitle:@"设备信息"],
                         [[LMHViewController alloc] initWithTitle:@"appearance" viewClass:[AppearanceView class]],
-                        [[MasonryViewController alloc] initWithTitle:@"masonry的使用"]
+                        [[MasonryViewController alloc] initWithTitle:@"masonry的使用"],
+                        [[LMHViewController alloc] initWithTitle:@"UIApplication详解" viewClass:[UIApplicationView class]]
                         ];
 }
 

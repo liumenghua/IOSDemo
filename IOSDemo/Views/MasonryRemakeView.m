@@ -14,7 +14,6 @@
 @interface MasonryRemakeView()
 @property (nonatomic, strong) UIButton * movingButton;
 @property (nonatomic, assign) BOOL isTopLeft;
-
 @end
 
 @implementation MasonryRemakeView
