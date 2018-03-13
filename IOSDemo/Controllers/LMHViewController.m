@@ -36,4 +36,10 @@
     self.view  = [self.viewClass new];
     self.view.backgroundColor = [UIColor whiteColor];
 }
+
+#ifdef __IPHONE_7_0
+- (UIRectEdge)edgesForExtendedLayout {
+    return UIRectEdgeNone;
+}
+#endif
 @end
