@@ -11,6 +11,7 @@ target 'IOSDemo' do
 
 
 pod "Masonry"
+pod "IQKeyboardManager"
 # Pods for IOSDemo
 
 end

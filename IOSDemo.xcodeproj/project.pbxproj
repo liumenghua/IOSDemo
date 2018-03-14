@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		503B6A2F39AE973DDF7BD893 /* libPods-IOSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9E0DF779BE6A81D2C371B6 /* libPods-IOSDemo.a */; };
+		AB68046B205913E000E84A02 /* KeyboardManagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB68046A205913E000E84A02 /* KeyboardManagerView.m */; };
 		ABEA61C8205150CB0070BB59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEA61C7205150CB0070BB59 /* AppDelegate.m */; };
 		ABEA61D0205150CB0070BB59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABEA61CF205150CB0070BB59 /* Assets.xcassets */; };
 		ABEA61D3205150CB0070BB59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEA61D1205150CB0070BB59 /* LaunchScreen.storyboard */; };
@@ -51,6 +52,8 @@
 		0F9E0DF779BE6A81D2C371B6 /* libPods-IOSDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IOSDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD4AB169EDE0DF356195F64 /* Pods-IOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOSDemo/Pods-IOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		71BDF070E1587B84282619EA /* Pods-IOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOSDemo/Pods-IOSDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AB680469205913E000E84A02 /* KeyboardManagerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardManagerView.h; sourceTree = "<group>"; };
+		AB68046A205913E000E84A02 /* KeyboardManagerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardManagerView.m; sourceTree = "<group>"; };
 		ABEA61C3205150CB0070BB59 /* IOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABEA61C6205150CB0070BB59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABEA61C7205150CB0070BB59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -129,6 +132,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AB680468205913C900E84A02 /* KeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				AB680469205913E000E84A02 /* KeyboardManagerView.h */,
+				AB68046A205913E000E84A02 /* KeyboardManagerView.m */,
+			);
+			path = KeyboardManager;
+			sourceTree = "<group>";
+		};
 		ABEA61BA205150CA0070BB59 = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +201,7 @@
 		ABEA622620569C820070BB59 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AB680468205913C900E84A02 /* KeyboardManager */,
 				ABEA62502057EA590070BB59 /* Masonry */,
 				ABEA622E20569C820070BB59 /* DeviceInfo.h */,
 				ABEA622F20569C820070BB59 /* DeviceInfo.m */,
@@ -412,9 +425,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IOSDemo/Pods-IOSDemo-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -445,6 +461,7 @@
 			files = (
 				ABEA62432056A66D0070BB59 /* MasonryViewController.m in Sources */,
 				ABEA62462056ABED0070BB59 /* MasonryBasicView.m in Sources */,
+				AB68046B205913E000E84A02 /* KeyboardManagerView.m in Sources */,
 				ABEA623E20569C880070BB59 /* DeviceInfoViewController.m in Sources */,
 				ABEA623020569C820070BB59 /* UIViewController+Extension.m in Sources */,
 				ABEA6249205763200070BB59 /* MasonryRemakeView.m in Sources */,
