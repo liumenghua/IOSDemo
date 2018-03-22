@@ -14,6 +14,7 @@
 #import "MasonryViewController.h"
 #import "UIApplicationView.h"
 #import "KeyboardManagerView.h"
+#import "WebViewController.h"
 
 @interface ListViewController ()
 @property (nonatomic, strong) NSArray * childItems;
@@ -38,7 +39,8 @@ static NSString * const reuseID = @"reuseID";
                         [[LMHViewController alloc] initWithTitle:@"appearance" viewClass:[AppearanceView class]],
                         [[MasonryViewController alloc] initWithTitle:@"masonry的使用"],
                         [[LMHViewController alloc] initWithTitle:@"UIApplication详解" viewClass:[UIApplicationView class]],
-                        [[LMHViewController alloc] initWithTitle:@"KeyboardManagerView" viewClass:[KeyboardManagerView class]]
+                        [[LMHViewController alloc] initWithTitle:@"KeyboardManagerView" viewClass:[KeyboardManagerView class]],
+                        [[WebViewController alloc] initWithTitle:@"WKWebView"]
                         ];
 }
 

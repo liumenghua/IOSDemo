@@ -20,7 +20,6 @@
 @implementation MasonryViewController
 static NSString * const reuseID = @"reuseID2";
 
-// 这个方法是在viewDidLoad之后调用么？
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

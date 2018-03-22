@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		503B6A2F39AE973DDF7BD893 /* libPods-IOSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9E0DF779BE6A81D2C371B6 /* libPods-IOSDemo.a */; };
 		AB68046B205913E000E84A02 /* KeyboardManagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB68046A205913E000E84A02 /* KeyboardManagerView.m */; };
+		AB7DB989206382A00028F859 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7DB988206382A00028F859 /* WebViewController.m */; };
 		ABEA61C8205150CB0070BB59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEA61C7205150CB0070BB59 /* AppDelegate.m */; };
 		ABEA61D0205150CB0070BB59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABEA61CF205150CB0070BB59 /* Assets.xcassets */; };
 		ABEA61D3205150CB0070BB59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEA61D1205150CB0070BB59 /* LaunchScreen.storyboard */; };
@@ -54,6 +55,8 @@
 		71BDF070E1587B84282619EA /* Pods-IOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOSDemo/Pods-IOSDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AB680469205913E000E84A02 /* KeyboardManagerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardManagerView.h; sourceTree = "<group>"; };
 		AB68046A205913E000E84A02 /* KeyboardManagerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardManagerView.m; sourceTree = "<group>"; };
+		AB7DB987206382A00028F859 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		AB7DB988206382A00028F859 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		ABEA61C3205150CB0070BB59 /* IOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABEA61C6205150CB0070BB59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABEA61C7205150CB0070BB59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -237,6 +240,8 @@
 				ABEA623820569C880070BB59 /* AppearanceViewController.m */,
 				ABEA62412056A66D0070BB59 /* MasonryViewController.h */,
 				ABEA62422056A66D0070BB59 /* MasonryViewController.m */,
+				AB7DB987206382A00028F859 /* WebViewController.h */,
+				AB7DB988206382A00028F859 /* WebViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -472,6 +477,7 @@
 				ABEA624C205777530070BB59 /* UIApplicationView.m in Sources */,
 				ABEA624020569C880070BB59 /* AppearanceViewController.m in Sources */,
 				ABEA623D20569C880070BB59 /* ListViewController.m in Sources */,
+				AB7DB989206382A00028F859 /* WebViewController.m in Sources */,
 				ABEA61D6205150CB0070BB59 /* main.m in Sources */,
 				ABEA623320569C820070BB59 /* DeviceInfo.m in Sources */,
 				ABEA623120569C820070BB59 /* AppearanceView.m in Sources */,
