@@ -12,6 +12,7 @@ target 'IOSDemo' do
 
 pod "Masonry"
 pod "IQKeyboardManager"
+pod "UITableView+FDTemplateLayoutCell"
 # Pods for IOSDemo
 
 end

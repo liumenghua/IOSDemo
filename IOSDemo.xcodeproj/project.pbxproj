@@ -10,6 +10,10 @@
 		503B6A2F39AE973DDF7BD893 /* libPods-IOSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9E0DF779BE6A81D2C371B6 /* libPods-IOSDemo.a */; };
 		AB68046B205913E000E84A02 /* KeyboardManagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB68046A205913E000E84A02 /* KeyboardManagerView.m */; };
 		AB7DB989206382A00028F859 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7DB988206382A00028F859 /* WebViewController.m */; };
+		AB7DB98D2063AA2B0028F859 /* TemplateLayoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7DB98C2063AA2B0028F859 /* TemplateLayoutTableViewController.m */; };
+		AB7DB98F2063AA8F0028F859 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = AB7DB98E2063AA8F0028F859 /* data.json */; };
+		AB7DB9922063AACB0028F859 /* FeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7DB9912063AACB0028F859 /* FeedModel.m */; };
+		AB7DB9952063AD450028F859 /* FeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7DB9942063AD450028F859 /* FeedTableViewCell.m */; };
 		ABEA61C8205150CB0070BB59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEA61C7205150CB0070BB59 /* AppDelegate.m */; };
 		ABEA61D0205150CB0070BB59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABEA61CF205150CB0070BB59 /* Assets.xcassets */; };
 		ABEA61D3205150CB0070BB59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEA61D1205150CB0070BB59 /* LaunchScreen.storyboard */; };
@@ -57,6 +61,13 @@
 		AB68046A205913E000E84A02 /* KeyboardManagerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardManagerView.m; sourceTree = "<group>"; };
 		AB7DB987206382A00028F859 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		AB7DB988206382A00028F859 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		AB7DB98B2063AA2B0028F859 /* TemplateLayoutTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateLayoutTableViewController.h; sourceTree = "<group>"; };
+		AB7DB98C2063AA2B0028F859 /* TemplateLayoutTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateLayoutTableViewController.m; sourceTree = "<group>"; };
+		AB7DB98E2063AA8F0028F859 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		AB7DB9902063AACB0028F859 /* FeedModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedModel.h; sourceTree = "<group>"; };
+		AB7DB9912063AACB0028F859 /* FeedModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedModel.m; sourceTree = "<group>"; };
+		AB7DB9932063AD450028F859 /* FeedTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedTableViewCell.h; sourceTree = "<group>"; };
+		AB7DB9942063AD450028F859 /* FeedTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewCell.m; sourceTree = "<group>"; };
 		ABEA61C3205150CB0070BB59 /* IOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABEA61C6205150CB0070BB59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABEA61C7205150CB0070BB59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -142,6 +153,20 @@
 				AB68046A205913E000E84A02 /* KeyboardManagerView.m */,
 			);
 			path = KeyboardManager;
+			sourceTree = "<group>";
+		};
+		AB7DB98A2063AA010028F859 /* FDTemplateLayoutCell */ = {
+			isa = PBXGroup;
+			children = (
+				AB7DB98B2063AA2B0028F859 /* TemplateLayoutTableViewController.h */,
+				AB7DB98C2063AA2B0028F859 /* TemplateLayoutTableViewController.m */,
+				AB7DB98E2063AA8F0028F859 /* data.json */,
+				AB7DB9902063AACB0028F859 /* FeedModel.h */,
+				AB7DB9912063AACB0028F859 /* FeedModel.m */,
+				AB7DB9932063AD450028F859 /* FeedTableViewCell.h */,
+				AB7DB9942063AD450028F859 /* FeedTableViewCell.m */,
+			);
+			path = FDTemplateLayoutCell;
 			sourceTree = "<group>";
 		};
 		ABEA61BA205150CA0070BB59 = {
@@ -242,6 +267,7 @@
 				ABEA62422056A66D0070BB59 /* MasonryViewController.m */,
 				AB7DB987206382A00028F859 /* WebViewController.h */,
 				AB7DB988206382A00028F859 /* WebViewController.m */,
+				AB7DB98A2063AA010028F859 /* FDTemplateLayoutCell */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -385,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABEA61D3205150CB0070BB59 /* LaunchScreen.storyboard in Resources */,
+				AB7DB98F2063AA8F0028F859 /* data.json in Resources */,
 				ABEA61D0205150CB0070BB59 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,9 +491,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB7DB98D2063AA2B0028F859 /* TemplateLayoutTableViewController.m in Sources */,
 				ABEA62432056A66D0070BB59 /* MasonryViewController.m in Sources */,
 				ABEA62462056ABED0070BB59 /* MasonryBasicView.m in Sources */,
 				AB68046B205913E000E84A02 /* KeyboardManagerView.m in Sources */,
+				AB7DB9952063AD450028F859 /* FeedTableViewCell.m in Sources */,
 				ABEA623E20569C880070BB59 /* DeviceInfoViewController.m in Sources */,
 				ABEA623020569C820070BB59 /* UIViewController+Extension.m in Sources */,
 				ABEA6249205763200070BB59 /* MasonryRemakeView.m in Sources */,
@@ -474,6 +503,7 @@
 				ABEA623F20569C880070BB59 /* LMHViewController.m in Sources */,
 				ABEA623220569C820070BB59 /* UITableView+Appearance.m in Sources */,
 				ABEA624F2057E4CB0070BB59 /* MasonryAspectFitView.m in Sources */,
+				AB7DB9922063AACB0028F859 /* FeedModel.m in Sources */,
 				ABEA624C205777530070BB59 /* UIApplicationView.m in Sources */,
 				ABEA624020569C880070BB59 /* AppearanceViewController.m in Sources */,
 				ABEA623D20569C880070BB59 /* ListViewController.m in Sources */,

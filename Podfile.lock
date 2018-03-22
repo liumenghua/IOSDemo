@@ -1,15 +1,18 @@
 PODS:
   - IQKeyboardManager (5.0.8)
   - Masonry (1.1.0)
+  - UITableView+FDTemplateLayoutCell (1.6)
 
 DEPENDENCIES:
   - IQKeyboardManager
   - Masonry
+  - UITableView+FDTemplateLayoutCell
 
 SPEC CHECKSUMS:
   IQKeyboardManager: 266cb7b1d11f94a3e71229d77f960f9a1b538e5b
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
 
-PODFILE CHECKSUM: eece2df62045733252a6bf7cdaad1c1273822e8b
+PODFILE CHECKSUM: eb8d090bbdf63a49d93abd2e799ccfd947ab095b
 
 COCOAPODS: 1.4.0
