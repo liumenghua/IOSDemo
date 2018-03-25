@@ -17,7 +17,7 @@
 #import "WebViewController.h"
 #import "UIWebViewController.h"
 #import "TemplateLayoutTableViewController.h"
-
+#import "SDWebImageController.h"
 @interface ListViewController ()
 @property (nonatomic, strong) NSArray * childItems;
 @end
@@ -44,7 +44,8 @@ static NSString * const reuseID = @"reuseID";
                         [[LMHViewController alloc] initWithTitle:@"KeyboardManagerView" viewClass:[KeyboardManagerView class]],
                         [[WebViewController alloc] initWithTitle:@"WKWebView"],
                         [[UIWebViewController alloc] initWithTitle:@"UIWebView"],
-                        [[TemplateLayoutTableViewController alloc] initWithTitle:@"tableView高度自适应"]
+                        [[TemplateLayoutTableViewController alloc] initWithTitle:@"tableView高度自适应"],
+                        [[SDWebImageController alloc] initWithTitle:@"SDWebImage"]
                         ];
 }
 

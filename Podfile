@@ -13,6 +13,7 @@ target 'IOSDemo' do
 pod "Masonry"
 pod "IQKeyboardManager"
 pod "UITableView+FDTemplateLayoutCell"
+pod "SDWebImage"
 # Pods for IOSDemo
 
 end
