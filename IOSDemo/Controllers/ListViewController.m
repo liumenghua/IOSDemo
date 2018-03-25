@@ -15,6 +15,7 @@
 #import "UIApplicationView.h"
 #import "KeyboardManagerView.h"
 #import "WebViewController.h"
+#import "UIWebViewController.h"
 #import "TemplateLayoutTableViewController.h"
 
 @interface ListViewController ()
@@ -42,6 +43,7 @@ static NSString * const reuseID = @"reuseID";
                         [[LMHViewController alloc] initWithTitle:@"UIApplication详解" viewClass:[UIApplicationView class]],
                         [[LMHViewController alloc] initWithTitle:@"KeyboardManagerView" viewClass:[KeyboardManagerView class]],
                         [[WebViewController alloc] initWithTitle:@"WKWebView"],
+                        [[UIWebViewController alloc] initWithTitle:@"UIWebView"],
                         [[TemplateLayoutTableViewController alloc] initWithTitle:@"tableView高度自适应"]
                         ];
 }

@@ -23,12 +23,12 @@
 
     self.tableView.fd_debugLogEnabled = YES; // 调试log
     
-//    [self testDataThen:^{
-//        self.feedSections = @[].mutableCopy;
-//        [self.feedSections addObject:self.prototypeEnititesFromJSON.mutableCopy];
-//        [self.tableView reloadData];
-//    }];
-//    
+    [self testDataThen:^{
+        self.feedSections = @[].mutableCopy;
+        [self.feedSections addObject:self.prototypeEnititesFromJSON.mutableCopy];
+        [self.tableView reloadData];
+    }];
+    
     [self.tableView registerClass:[FeedTableViewCell class] forCellReuseIdentifier:@"FeedTableViewCell"];
 }
 

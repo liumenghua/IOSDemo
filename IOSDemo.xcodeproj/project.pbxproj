@@ -14,6 +14,9 @@
 		AB7DB98F2063AA8F0028F859 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = AB7DB98E2063AA8F0028F859 /* data.json */; };
 		AB7DB9922063AACB0028F859 /* FeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7DB9912063AACB0028F859 /* FeedModel.m */; };
 		AB7DB9952063AD450028F859 /* FeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7DB9942063AD450028F859 /* FeedTableViewCell.m */; };
+		AB7DB99F206540110028F859 /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7DB99E206540110028F859 /* UIWebViewController.m */; };
+		AB7DB9A4206608E30028F859 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = AB7DB9A3206608E30028F859 /* test.html */; };
+		AB7DB9A7206630380028F859 /* NSObject+Argument.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7DB9A6206630380028F859 /* NSObject+Argument.m */; };
 		ABEA61C8205150CB0070BB59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEA61C7205150CB0070BB59 /* AppDelegate.m */; };
 		ABEA61D0205150CB0070BB59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABEA61CF205150CB0070BB59 /* Assets.xcassets */; };
 		ABEA61D3205150CB0070BB59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABEA61D1205150CB0070BB59 /* LaunchScreen.storyboard */; };
@@ -68,6 +71,11 @@
 		AB7DB9912063AACB0028F859 /* FeedModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedModel.m; sourceTree = "<group>"; };
 		AB7DB9932063AD450028F859 /* FeedTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedTableViewCell.h; sourceTree = "<group>"; };
 		AB7DB9942063AD450028F859 /* FeedTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewCell.m; sourceTree = "<group>"; };
+		AB7DB99D206540110028F859 /* UIWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
+		AB7DB99E206540110028F859 /* UIWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
+		AB7DB9A3206608E30028F859 /* test.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		AB7DB9A5206630380028F859 /* NSObject+Argument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Argument.h"; sourceTree = "<group>"; };
+		AB7DB9A6206630380028F859 /* NSObject+Argument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Argument.m"; sourceTree = "<group>"; };
 		ABEA61C3205150CB0070BB59 /* IOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABEA61C6205150CB0070BB59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ABEA61C7205150CB0070BB59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -267,6 +275,11 @@
 				ABEA62422056A66D0070BB59 /* MasonryViewController.m */,
 				AB7DB987206382A00028F859 /* WebViewController.h */,
 				AB7DB988206382A00028F859 /* WebViewController.m */,
+				AB7DB99D206540110028F859 /* UIWebViewController.h */,
+				AB7DB99E206540110028F859 /* UIWebViewController.m */,
+				AB7DB9A5206630380028F859 /* NSObject+Argument.h */,
+				AB7DB9A6206630380028F859 /* NSObject+Argument.m */,
+				AB7DB9A3206608E30028F859 /* test.html */,
 				AB7DB98A2063AA010028F859 /* FDTemplateLayoutCell */,
 			);
 			path = Controllers;
@@ -410,6 +423,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB7DB9A4206608E30028F859 /* test.html in Resources */,
 				ABEA61D3205150CB0070BB59 /* LaunchScreen.storyboard in Resources */,
 				AB7DB98F2063AA8F0028F859 /* data.json in Resources */,
 				ABEA61D0205150CB0070BB59 /* Assets.xcassets in Resources */,
@@ -500,6 +514,7 @@
 				ABEA623020569C820070BB59 /* UIViewController+Extension.m in Sources */,
 				ABEA6249205763200070BB59 /* MasonryRemakeView.m in Sources */,
 				ABEA62532057EA760070BB59 /* MasonryDistributeView.m in Sources */,
+				AB7DB99F206540110028F859 /* UIWebViewController.m in Sources */,
 				ABEA623F20569C880070BB59 /* LMHViewController.m in Sources */,
 				ABEA623220569C820070BB59 /* UITableView+Appearance.m in Sources */,
 				ABEA624F2057E4CB0070BB59 /* MasonryAspectFitView.m in Sources */,
@@ -507,6 +522,7 @@
 				ABEA624C205777530070BB59 /* UIApplicationView.m in Sources */,
 				ABEA624020569C880070BB59 /* AppearanceViewController.m in Sources */,
 				ABEA623D20569C880070BB59 /* ListViewController.m in Sources */,
+				AB7DB9A7206630380028F859 /* NSObject+Argument.m in Sources */,
 				AB7DB989206382A00028F859 /* WebViewController.m in Sources */,
 				ABEA61D6205150CB0070BB59 /* main.m in Sources */,
 				ABEA623320569C820070BB59 /* DeviceInfo.m in Sources */,
