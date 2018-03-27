@@ -18,6 +18,8 @@
 #import "UIWebViewController.h"
 #import "TemplateLayoutTableViewController.h"
 #import "SDWebImageController.h"
+#import "ProgressViewController.h"
+
 @interface ListViewController ()
 @property (nonatomic, strong) NSArray * childItems;
 @end
@@ -45,7 +47,8 @@ static NSString * const reuseID = @"reuseID";
                         [[WebViewController alloc] initWithTitle:@"WKWebView"],
                         [[UIWebViewController alloc] initWithTitle:@"UIWebView"],
                         [[TemplateLayoutTableViewController alloc] initWithTitle:@"tableView高度自适应"],
-                        [[SDWebImageController alloc] initWithTitle:@"SDWebImage"]
+                        [[SDWebImageController alloc] initWithTitle:@"SDWebImage"],
+                        [[ProgressViewController alloc] initWithTitle:@"UIProgressView"]
                         ];
 }
 

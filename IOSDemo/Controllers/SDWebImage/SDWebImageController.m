@@ -40,7 +40,6 @@
     // 5. 获取Preferences路径
     NSString * preferences = [NSSearchPathForDirectoriesInDomains(NSPreferencePanesDirectory, NSUserDomainMask, YES) firstObject];
     NSLog(@"preferences = %@", preferences);
-
 }
 
 - (void)didReceiveMemoryWarning {
@@ -116,5 +115,7 @@
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection{
     NSLog(@"加载完成");
 }
+
+
 
 @end

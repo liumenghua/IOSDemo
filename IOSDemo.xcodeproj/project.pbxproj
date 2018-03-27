@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		503B6A2F39AE973DDF7BD893 /* libPods-IOSDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9E0DF779BE6A81D2C371B6 /* libPods-IOSDemo.a */; };
+		AB418E7E206939F400C06589 /* RetainCycleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB418E7D206939F400C06589 /* RetainCycleViewController.m */; };
+		AB418E8120693AB400C06589 /* MyTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB418E8020693AB400C06589 /* MyTimer.m */; };
+		AB418E86206A138800C06589 /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB418E84206A138800C06589 /* ProgressViewController.m */; };
+		AB418E87206A138800C06589 /* ProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB418E85206A138800C06589 /* ProgressViewController.xib */; };
 		AB51ECAE206793B90078E4DF /* SDWebImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB51ECAC206793B90078E4DF /* SDWebImageController.m */; };
 		AB51ECAF206793B90078E4DF /* SDWebImageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB51ECAD206793B90078E4DF /* SDWebImageController.xib */; };
 		AB68046B205913E000E84A02 /* KeyboardManagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB68046A205913E000E84A02 /* KeyboardManagerView.m */; };
@@ -62,6 +66,13 @@
 		0F9E0DF779BE6A81D2C371B6 /* libPods-IOSDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IOSDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD4AB169EDE0DF356195F64 /* Pods-IOSDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOSDemo/Pods-IOSDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		71BDF070E1587B84282619EA /* Pods-IOSDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOSDemo/Pods-IOSDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AB418E7C206939F400C06589 /* RetainCycleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RetainCycleViewController.h; sourceTree = "<group>"; };
+		AB418E7D206939F400C06589 /* RetainCycleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetainCycleViewController.m; sourceTree = "<group>"; };
+		AB418E7F20693AB400C06589 /* MyTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTimer.h; sourceTree = "<group>"; };
+		AB418E8020693AB400C06589 /* MyTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTimer.m; sourceTree = "<group>"; };
+		AB418E83206A138800C06589 /* ProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
+		AB418E84206A138800C06589 /* ProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
+		AB418E85206A138800C06589 /* ProgressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgressViewController.xib; sourceTree = "<group>"; };
 		AB51ECAB206793B90078E4DF /* SDWebImageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageController.h; sourceTree = "<group>"; };
 		AB51ECAC206793B90078E4DF /* SDWebImageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageController.m; sourceTree = "<group>"; };
 		AB51ECAD206793B90078E4DF /* SDWebImageController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SDWebImageController.xib; sourceTree = "<group>"; };
@@ -157,6 +168,30 @@
 				0F9E0DF779BE6A81D2C371B6 /* libPods-IOSDemo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB418E7B206939B900C06589 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				AB7DB987206382A00028F859 /* WebViewController.h */,
+				AB7DB988206382A00028F859 /* WebViewController.m */,
+				AB7DB99D206540110028F859 /* UIWebViewController.h */,
+				AB7DB99E206540110028F859 /* UIWebViewController.m */,
+				AB7DB9A5206630380028F859 /* NSObject+Argument.h */,
+				AB7DB9A6206630380028F859 /* NSObject+Argument.m */,
+				AB7DB9A3206608E30028F859 /* test.html */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		AB418E82206A137600C06589 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				AB418E83206A138800C06589 /* ProgressViewController.h */,
+				AB418E84206A138800C06589 /* ProgressViewController.m */,
+				AB418E85206A138800C06589 /* ProgressViewController.xib */,
+			);
+			path = ProgressView;
 			sourceTree = "<group>";
 		};
 		AB51ECA5206792630078E4DF /* SDWebImage */ = {
@@ -288,13 +323,12 @@
 				ABEA623820569C880070BB59 /* AppearanceViewController.m */,
 				ABEA62412056A66D0070BB59 /* MasonryViewController.h */,
 				ABEA62422056A66D0070BB59 /* MasonryViewController.m */,
-				AB7DB987206382A00028F859 /* WebViewController.h */,
-				AB7DB988206382A00028F859 /* WebViewController.m */,
-				AB7DB99D206540110028F859 /* UIWebViewController.h */,
-				AB7DB99E206540110028F859 /* UIWebViewController.m */,
-				AB7DB9A5206630380028F859 /* NSObject+Argument.h */,
-				AB7DB9A6206630380028F859 /* NSObject+Argument.m */,
-				AB7DB9A3206608E30028F859 /* test.html */,
+				AB418E7C206939F400C06589 /* RetainCycleViewController.h */,
+				AB418E7D206939F400C06589 /* RetainCycleViewController.m */,
+				AB418E7F20693AB400C06589 /* MyTimer.h */,
+				AB418E8020693AB400C06589 /* MyTimer.m */,
+				AB418E82206A137600C06589 /* ProgressView */,
+				AB418E7B206939B900C06589 /* WebView */,
 				AB51ECA5206792630078E4DF /* SDWebImage */,
 				AB7DB98A2063AA010028F859 /* FDTemplateLayoutCell */,
 			);
@@ -444,6 +478,7 @@
 				AB7DB98F2063AA8F0028F859 /* data.json in Resources */,
 				AB51ECAF206793B90078E4DF /* SDWebImageController.xib in Resources */,
 				ABEA61D0205150CB0070BB59 /* Assets.xcassets in Resources */,
+				AB418E87206A138800C06589 /* ProgressViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +558,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB7DB98D2063AA2B0028F859 /* TemplateLayoutTableViewController.m in Sources */,
+				AB418E86206A138800C06589 /* ProgressViewController.m in Sources */,
+				AB418E8120693AB400C06589 /* MyTimer.m in Sources */,
 				ABEA62432056A66D0070BB59 /* MasonryViewController.m in Sources */,
 				ABEA62462056ABED0070BB59 /* MasonryBasicView.m in Sources */,
 				AB68046B205913E000E84A02 /* KeyboardManagerView.m in Sources */,
@@ -537,6 +574,7 @@
 				ABEA624F2057E4CB0070BB59 /* MasonryAspectFitView.m in Sources */,
 				AB7DB9922063AACB0028F859 /* FeedModel.m in Sources */,
 				ABEA624C205777530070BB59 /* UIApplicationView.m in Sources */,
+				AB418E7E206939F400C06589 /* RetainCycleViewController.m in Sources */,
 				ABEA624020569C880070BB59 /* AppearanceViewController.m in Sources */,
 				ABEA623D20569C880070BB59 /* ListViewController.m in Sources */,
 				AB7DB9A7206630380028F859 /* NSObject+Argument.m in Sources */,
