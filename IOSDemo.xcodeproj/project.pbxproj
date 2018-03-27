@@ -12,6 +12,7 @@
 		AB418E8120693AB400C06589 /* MyTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB418E8020693AB400C06589 /* MyTimer.m */; };
 		AB418E86206A138800C06589 /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB418E84206A138800C06589 /* ProgressViewController.m */; };
 		AB418E87206A138800C06589 /* ProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB418E85206A138800C06589 /* ProgressViewController.xib */; };
+		AB418E8D206A2C9D00C06589 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AB418E8C206A2C9D00C06589 /* NSObject+Extension.m */; };
 		AB51ECAE206793B90078E4DF /* SDWebImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB51ECAC206793B90078E4DF /* SDWebImageController.m */; };
 		AB51ECAF206793B90078E4DF /* SDWebImageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB51ECAD206793B90078E4DF /* SDWebImageController.xib */; };
 		AB68046B205913E000E84A02 /* KeyboardManagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB68046A205913E000E84A02 /* KeyboardManagerView.m */; };
@@ -73,6 +74,8 @@
 		AB418E83206A138800C06589 /* ProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
 		AB418E84206A138800C06589 /* ProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
 		AB418E85206A138800C06589 /* ProgressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgressViewController.xib; sourceTree = "<group>"; };
+		AB418E8B206A2C9D00C06589 /* NSObject+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		AB418E8C206A2C9D00C06589 /* NSObject+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
 		AB51ECAB206793B90078E4DF /* SDWebImageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDWebImageController.h; sourceTree = "<group>"; };
 		AB51ECAC206793B90078E4DF /* SDWebImageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDWebImageController.m; sourceTree = "<group>"; };
 		AB51ECAD206793B90078E4DF /* SDWebImageController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SDWebImageController.xib; sourceTree = "<group>"; };
@@ -327,6 +330,8 @@
 				AB418E7D206939F400C06589 /* RetainCycleViewController.m */,
 				AB418E7F20693AB400C06589 /* MyTimer.h */,
 				AB418E8020693AB400C06589 /* MyTimer.m */,
+				AB418E8B206A2C9D00C06589 /* NSObject+Extension.h */,
+				AB418E8C206A2C9D00C06589 /* NSObject+Extension.m */,
 				AB418E82206A137600C06589 /* ProgressView */,
 				AB418E7B206939B900C06589 /* WebView */,
 				AB51ECA5206792630078E4DF /* SDWebImage */,
@@ -576,6 +581,7 @@
 				ABEA624C205777530070BB59 /* UIApplicationView.m in Sources */,
 				AB418E7E206939F400C06589 /* RetainCycleViewController.m in Sources */,
 				ABEA624020569C880070BB59 /* AppearanceViewController.m in Sources */,
+				AB418E8D206A2C9D00C06589 /* NSObject+Extension.m in Sources */,
 				ABEA623D20569C880070BB59 /* ListViewController.m in Sources */,
 				AB7DB9A7206630380028F859 /* NSObject+Argument.m in Sources */,
 				AB7DB989206382A00028F859 /* WebViewController.m in Sources */,

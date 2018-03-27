@@ -7,6 +7,7 @@
 //
 
 #import "ProgressViewController.h"
+#import "NSObject+Extension.h"
 
 @interface ProgressViewController ()
 @property (nonatomic, strong) UIProgressView * progressView;
@@ -18,6 +19,10 @@
     [super viewDidLoad];
     
     [self loadUI];
+    
+    NSObject * obj = [[NSObject alloc]init];
+    obj.name = @"stzen";
+    
 }
 
 - (void)loadUI{
